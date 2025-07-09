@@ -82,12 +82,18 @@
 
     .introduction p {
         font-size: 1.2rem;
+        line-height: 1.5;
         margin-bottom: 10px;
     }
 
     .blog .blog-body h3,
     .blog .blog-body-right .blog-links h3 {
         font-size: 1.65rem;
+    }
+
+    .blog .blog-body p{
+        font-size: 1.1rem;
+        margin-bottom: 15px;
     }
 
     footer .content-box h3,
