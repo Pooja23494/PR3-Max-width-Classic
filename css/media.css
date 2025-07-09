@@ -1,0 +1,116 @@
+/* xl */
+@media(max-width:1399px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+
+/* lg */
+@media(max-width:1199px) {
+    .container {
+        max-width: 960px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .blog .blog-body-right .blog-links a {
+        line-height: 2;
+    }
+}
+
+/* md */
+@media(max-width:991px) {
+    .container {
+        max-width: 720px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    header .navbar h2 .logo {
+        font-size: 2rem;
+    }
+
+    header .navbar ul li a{
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        background: none;
+        height: auto;
+    }
+
+    .hero .img-fluid {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .introduction {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+}
+
+/* sm */
+@media(max-width:767px) {
+    .container {
+        max-width: 540px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    .introduction h2 {
+        font-size: 2rem;
+    }
+
+    .introduction p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .blog .blog-body h3,
+    .blog .blog-body-right .blog-links h3 {
+        font-size: 1.65rem;
+    }
+
+    footer .content-box h3,
+    footer .links h3,
+    footer .footer-content h3 {
+        font-size: 1.65rem;
+    }
+}
+
+/* xs */
+@media(max-width:575px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .blog .media {
+        display: block;
+    }
+}
