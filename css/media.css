@@ -15,8 +15,38 @@
         margin: 0 auto;
     }
 
+    .col-lg-4 {
+        width: 33.33%;
+        padding: 15px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .blog .blog-body {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .blog .blog-body-right {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
     .blog .blog-body-right .blog-links a {
         line-height: 2;
+    }
+
+    .blog .blog-body-right .media .media-img img {
+        height: 120px;
+        object-fit: cover;
     }
 }
 
@@ -38,28 +68,51 @@
         padding: 15px;
     }
 
-    header .navbar h2 .logo {
-        font-size: 2rem;
+    header .navbar {
+        transition: all 0.3s ease-in-out;
     }
 
-    header .navbar ul li a{
+    header .navbar h2 .logo {
+        font-size: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header .navbar ul li a {
         margin-bottom: 5px;
+        display: block;
+        padding: 10px 15px;
+        font-size: 1rem;
     }
 
     .hero {
         background: none;
         height: auto;
+        transition: all 0.3s ease-in-out;
     }
 
     .hero .img-fluid {
         display: block;
         max-width: 100%;
         height: auto;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
     }
 
     .introduction {
         padding-top: 40px;
         padding-bottom: 0;
+    }
+
+    .blog .blog-body {
+        margin: 0 auto;
+        max-width: 600px;
+        padding-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .blog .blog-body-right {
+        margin: 0 auto;
+        max-width: 600px;
     }
 }
 
@@ -74,6 +127,7 @@
     .btn {
         padding: 10px 15px;
         font-size: 1rem;
+        transition: all 0.3s ease-in-out;
     }
 
     .introduction h2 {
@@ -91,15 +145,27 @@
         font-size: 1.65rem;
     }
 
-    .blog .blog-body p{
+    .blog .blog-body p {
         font-size: 1.1rem;
         margin-bottom: 15px;
+    }
+
+    .blog .media .media-body p {
+        line-height: 1.6;
     }
 
     footer .content-box h3,
     footer .links h3,
     footer .footer-content h3 {
         font-size: 1.65rem;
+    }
+
+    footer .content-box .gray-bg p {
+        line-height: 1.6;
+    }
+
+    footer .links ul li a {
+        line-height: 2.2;
     }
 }
 
@@ -116,7 +182,18 @@
         padding: 15px;
     }
 
+    .introduction .introduction-content {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+
+    .introduction .introduction-content img {
+        height: 180px !important;
+        object-fit: cover;
+    }
+
     .blog .media {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -24,6 +24,11 @@ html body {
     margin: 0 auto;
 }
 
+.container-fluid {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 img {
     width: 100%;
     display: block;
@@ -54,8 +59,18 @@ ul li {
     padding: 15px;
 }
 
+.col-5 {
+    width: 41.67%;
+    padding: 15px;
+}
+
 .col-6 {
     width: 50%;
+    padding: 15px;
+}
+
+.col-7 {
+    width: 58.33%;
     padding: 15px;
 }
 
@@ -83,7 +98,7 @@ ul li {
     margin-bottom: 2rem;
 }
 
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 
@@ -93,6 +108,10 @@ ul li {
 
 .pt-0 {
     padding-top: 0;
+}
+
+.ps-0 {
+    padding-left: 0;
 }
 
 .py {
@@ -113,6 +132,7 @@ ul li {
 
 .btn:hover {
     background-color: #906E09;
+    color: var(--theme-white);
 }
 
 /* Header Section Start */
@@ -127,6 +147,7 @@ header {
 
 header .navbar {
     padding: 1rem 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar-nav {
@@ -206,12 +227,14 @@ header .navbar ul li a:hover {
     background-repeat: no-repeat;
     height: 500px;
     margin: 0 8px;
+    transition: all 0.3s ease-in-out;
 }
 
-.hero .img-fluid{
+.hero .img-fluid {
     display: none;
     max-width: 100%;
     height: auto;
+    transition: all 0.3s ease-in-out;
 }
 
 /*  Hero Section End */
@@ -281,7 +304,7 @@ header .navbar ul li a:hover {
     margin-bottom: 40px;
 }
 
-.blog .blog-body-right .blog-links ul{
+.blog .blog-body-right .blog-links ul {
     padding-left: 0;
 }
 
@@ -377,7 +400,7 @@ footer .content-box .gray-bg p strong {
     font-weight: 700;
 }
 
-footer .links ul{
+footer .links ul {
     padding-left: 0;
 }
 
