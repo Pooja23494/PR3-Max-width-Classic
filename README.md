@@ -14,8 +14,6 @@ https://pr-3-max-width-classic.vercel.app
 
 ## 📁 Project Structure
 
-project-folder/
-│
 ├── css/
 │ ├── style.css
 │ ├── media.css
